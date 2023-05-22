@@ -1,0 +1,7 @@
+pipeline {
+     agentany
+	    stages {
+		}    stage(Hello)  {
+		    echo print "Hello World" 
+			}
+}
