@@ -1,7 +1,8 @@
 pipeline {
-     agentany
+      agentany
 	    stages {
-		}    stage(Hello)  {
-		    echo print "Hello World" 
+		    stage(Hello)  {
+			  echo"helloworld" 
 			}
+		}
 }
